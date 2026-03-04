@@ -1,5 +1,3 @@
-
-
 /*
 Imagine que você abriu uma loja:
 1) Crie o nome de 8 produtos e armazene em uma lista; ok
@@ -14,8 +12,8 @@ Imagine que você abriu uma loja:
     - remove um elemento pelo índice
     - mostra estoque
 */
-const produtos = ["Leie", "X-largaticha", "Arroz", "Bolacha", "Coca-zero", "Pão", "Doce-leite"]
-const valores = [    5    ,     20   ,      10    ,     3     ,   6      ,    11    ,  12   ]
+const produtos = ["Leie", "X-largaticha", "Arroz", "Bolacha", "Coca-zero", "Pão", "Doce-leite", "Café"]
+const valores = [    5    ,     20   ,      10    ,     3     ,   6      ,    11    ,  12    ,   15   ]
 function mostrarProdutos(){
     informacao = 0
     while(informacao < produtos.length){
